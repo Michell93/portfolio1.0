@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça meu portfólio e descubra meus projetos e habilidades, desenvolvedor front end - habilidaes em JavaScript, react, typescript, html, css, Tailwindcss e Bootstrap.">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"/>
+    <link rel="shortcut icon" href="/assets/profile.png" type="image/x-icon">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Michel Douglas - desenvolvedor">
+    <meta property="og:image" content="https://github.com/Michell93">
+    <meta property="og:description" content="Portfólio pessoal - veja as minhas habilidades">
+    <meta property="og:site_name" content="Michel Douglas">
+    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <link rel="stylesheet" href="styles/output.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script defer type="module" src="./main.js"></script>
+    
+    <title>Michel Douglas - Desenvolvedor</title>
+</head>
+<body>
+    <header class="max-w-7xl m-auto"> 
+        <button id="scrollTopButton" class="scrollTop" aria-label="Ir para o topo da página">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+       <nav class="nav w-full flex justify-between items-center flex-row lg:my-7 my-5 px-5">
+            <h1 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text mb-0"></h1>
+            <div>
+                <ul class="js-menu nav-list flex items-center gap-5 text-gray-800">
+                    <li>
+                        <a class="relative flex items-center text-lg transition before:absolute before:text-purple-900 before:opacity-0 before:transition before:content-['{'] after:absolute after:right-0 after:text-purple-900 after:opacity-0 after:transition after:content-['}'] hover:text-target before:hover:-translate-x-4 before:hover:opacity-100 after:hover:translate-x-4 after:hover:opacity-100" href="#sobre">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a class="relative flex items-center text-lg transition before:absolute before:text-purple-900 before:opacity-0 before:transition before:content-['{'] after:absolute after:right-0 after:text-purple-900 after:opacity-0 after:transition after:content-['}'] hover:text-target before:hover:-translate-x-4 before:hover:opacity-100 after:hover:translate-x-4 after:hover:opacity-100" href="#experiencia">Experiência</a>
+                    </li>
+                    <li>
+                        <a class="relative flex items-center text-lg transition before:absolute before:text-purple-900 before:opacity-0 before:transition before:content-['{'] after:absolute after:right-0 after:text-purple-900 after:opacity-0 after:transition after:content-['}'] hover:text-target before:hover:-translate-x-4 before:hover:opacity-100 after:hover:translate-x-4 after:hover:opacity-100" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div> 
+            <div class="mobile-menu lg:hidden lg:remove md:hidden md:remove flex">
+                <button class="hamburguer"></button>
+            </div>
+        </nav> 
+    </header>
+    <main>
+        <section class="max-w-7xl flex items-center m-auto">
+            <div class="w-full flex justify-center items-center lg:flex-row flex-col lg:gap-16 md:gap-16 gap-10 lg:pt-10 md:pt-10 pt-0 lg:min-h-[90vh] md:min-h-[70vh] min-h-[60vh]">
+                <div>
+                    <img class="lg:max-w-[400px] md:max-w-[400px] max-w-[250px] object-contain rounded-full" src="./assets/profile.png" alt="Foto de perfil">
+                </div>
+                <div class="flex justify-center lg:items-start items-center flex-col lg:gap-6 md:gap-8 gap-7 mx-3">
+                    <h2 class="font-bold lg:text-start md:text-center text-center lg:text-7xl md:text-5xl text-4xl flex flex-col text-gray-800">
+                        <span>Desenvolvedor</span>
+                        <span class="bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">Front-end <i class="fas fa-code"></i></span>
+                    </h2>
+                    <p class="max-w-4xl lg:text-xl md:text-2xl text-base lg:leading-8 md:leading-9 leading-7">
+                        Seja bem vindo! Me chamo <strong>Michel Douglas</strong>, desenvolvedor front-end com versatilidade na indústria de tecnologia. Capacidade de identificar, analisar e solucionar problemas. Estou sempre estudando  cada vez mais para ser um profissional melhor. Com bastante experiência em front-end e cursando cursos para aprimorar mais o back-end. 
+                    </p>
+                    <ul class="flex items-center gap-5 lg:text-xl md:text-xl text-base">
+                        <li>
+                            <a class="hover:text-purple-900 transition-all duration-300 ease-in-out" href="https://github.com/Michell93" target="_blank" rel="noopener noreferrer" aria-label="Visitar GitHub de Michel">Github <i class="fab fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a class="hover:text-purple-900 transition-all duration-300 ease-in-out" href="https://www.linkedin.com/in/michel-douglas-barbosa-b05220212/" target="_blank" rel="noopener noreferrer" aria-label="Visitar LinkedIn de Michel">Linkedin <i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li>
+                            <a class="hover:text-purple-900 transition-all duration-300 ease-in-out" href="https://drive.google.com/file/d/1m2B2__jrUsGnBt9OxMcVGazE_lqpCibr/view?usp=drive_link" target="_blank" rel="noopener noreferrer" aria-label="Visualizar Currículo de Michel">Currículo <i class="fas fa-file-alt"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="absolute z-50 lg:bottom-20 md:bottom-[-40px] lg:flex hidden left-1/2 transform -translate-x-1/2 transition-transform hover:translate-y-1 animate-seta">
+                <i class="animate__animated animate__fadeIn fas fa-angle-down text-4xl text-purple-900"></i>
+            </div>
+        </section>
+        <section class="max-w-7xl m-auto" id="sobre">
+            <div class="wow animate__animated animate__fadeIn flex justify-center items-center flex-col lg:gap-10 gap-7 lg:py-10 md:py-7 py-10 mx-3">
+                <h2 class="font-bold lg:text-4xl md:text-4xl text-4xl bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">Sobre mim <i class="fas fa-code"></i></h2>
+                <p class="max-w-6xl lg:text-xl md:text-2xl text-base lg:leading-8 md:leading-9 leading-7">Possuo experiência como <strong>Front End</strong> utilizando <strong> Javascript, React, NextJs, TypeScript, Tailwind Css, Bootstrap, e Sass</strong>, <strong>metodologia Scrum</strong> e aplicando o fluxo de trabalho <strong>Git Flow</strong>, já como back-end me destaco em <strong>Python</strong>. Proficiente em tecnologias, também tenho conhecimento em bancos de dados, sistemas de controle de versão, processos de implantação, cloud computing e pentester. Bacharelado em <strong>Engenharia de Software</strong>🎓, praticando e buscando novas oportunidades.</p>
+            </div>
+        </section>
+        <section class="max-w-7xl m-auto">
+            <div class="wow animate__animated animate__fadeIn flex justify-center items-center lg:gap-10 gap-4 flex-col lg:py-10 md:py-10 py-5 mx-3">
+                <h2 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent pb-10 bg-clip-text">Skills <i class="fas fa-brain"></i></h2>
+        
+                <ul class="max-w-5xl w-full flex-wrap flex justify-center items-center lg:gap-8 md:gap-6 gap-5">
+                    <li class="max-w-[90px] w-full flex justify-center items-center flex-col gap-1">
+                        <img class="w-full lg:h-[80px] md:h-[70px] h-[60px] object-contain" src="./assets/html5-original.svg" alt="Logo do Html"
+                        title="HTML é uma linguagem de marcação usada para criar e estruturar páginas web.">
+                        <span class="font-bold select-none">
+                            HTML5
+                        </span>
+                    </li>
+                    <li class="max-w-[90px] w-full flex justify-center items-center flex-col gap-1">
+                        <img class="w-full lg:h-[80px] md:h-[70px] h-[60px] object-contain" src="./assets/css3-original.svg" alt="Logo do Css"
+                        title="CSS é uma linguagem de estilo usada para estilizar o layout e a apresentação de páginas web">
+                        <span class="font-bold select-none">
+                            CSS3
+                        </span>
+                    </li>
+                    <li class="max-w-[90px] w-full flex justify-center items-center flex-col gap-1">
+                        <img class="w-full lg:h-[80px] md:h-[70px] h-[60px] object-contain" src="./assets/javascript-original.svg" alt="Logo do Javascript"
+                        title="JavaScript é uma linguagem para adicionar interatividade e funcionalidades a páginas web.">
+                        <span class="font-bold select-none">
+                            Javascript
+                        </span>
+                    </li>
+                    <li class="max-w-[90px] w-full flex justify-center items-center flex-col gap-1">
+                        <img class="w-full lg:h-[80px] md:h-[70px] h-[60px] object-contain" src="./assets/react-original.svg" alt="Logo do React"
+                        title="React é uma biblioteca JavaScript utilizada para construir interfaces de usuário interativas e dinâmicas para aplicações web e móveis.">
+                        <span class="font-bold select-none">
+                            React
+                        </span>
+                    </li>
+                    <li class="max-w-[90px] w-full flex justify-center items-center flex-col gap-1">
+                        <img class="w-full lg:h-[80px] md:h-[70px] h-[60px] object-contain" src="./assets/typescript-original.svg" alt="Logo do Typescript"
+                        title="TypeScript é uma linguagem de programação que adiciona tipagem estática opcional ao JavaScript, facilitando o desenvolvimento de aplicativos robustos e escaláveis.">
+                        <span class="font-bold select-none">
+                            Typescript
+                        </span>
+                    </li>
+                    <li class="max-w-[90px] w-full flex justify-center items-center flex-col gap-1">
+                        <img class="w-full lg:h-[80px] md:h-[70px] h-[60px] object-contain" src="./assets/sass-original.svg" alt="Logo do Sass"
+                        title="Sass estende o CSS, simplificando a escrita e manutenção de estilos web com variáveis, aninhamento de seletores e mixins.">
+                        <span class="font-bold select-none">
+                            Sass
+                        </span>
+                    </li>
+                    <li class="max-w-[90px] w-full flex justify-center items-center flex-col gap-1">
+                        <img class="w-full lg:h-[80px] md:h-[70px] h-[60px] object-contain" src="./assets/BootStrap-logo.svg" alt="Logo do BootStrap"
+                        title="Bootstrap é um framework front-end para criar interfaces web responsivas e atrativas.">
+                        <span class="font-bold select-none">
+                            BootStrap
+                        </span>
+                    </li>
+                    <li class="max-w-[90px] w-full flex justify-center items-center flex-col gap-1">
+                        <img class="w-full lg:h-[80px] md:h-[70px] h-[60px] object-contain" src="./assets/tailwindcss-original.svg" alt="Logo do Tailwind css"
+                        title="Tailwind CSS é uma estrutura de CSS utilitária que permite criar designs personalizados de forma rápida e eficiente, através da aplicação de classes pré-definidas.">
+                        <span class="font-bold select-none ">
+                            Tailwindcss
+                        </span>
+                    </li>
+                    <li class="max-w-[90px] w-full flex justify-center items-center flex-col gap-1">
+                        <img class="w-full lg:h-[80px] md:h-[70px] h-[60px] object-contain" src="./assets/python-logo.png" alt="Logo do Python"
+                        title="Python é uma linguagem de programação de alto nível, interpretada e orientada a objetos, conhecida pela sua sintaxe simples e legibilidade.">
+                        <span class="font-bold select-none">
+                            Python
+                        </span>
+                    </li>
+                    <li class="max-w-[90px] w-full flex justify-center items-center flex-col gap-1">
+                        <img class="w-full lg:h-[80px] md:h-[70px] h-[60px] object-contain" src="./assets/firebase-svgrepo-com.svg" alt="Logo do Firebase"
+                        title="Firebase é uma plataforma para desenvolvimento de aplicativos, oferecendo serviços como armazenamento em nuvem, autenticação de usuários e banco de dados em tempo real.">
+                        <span class="font-bold select-none">
+                            Firebase
+                        </span>
+                    </li>
+                    <li class="max-w-[90px] w-full flex justify-center items-center flex-col gap-1">
+                        <img class="w-full lg:h-[80px] md:h-[70px] h-[60px] object-contain" src="./assets/git-svgrepo-com.svg" alt="Logo do Git"
+                        title="Git é um sistema de controle de versão utilizado para rastrear mudanças no código durante o desenvolvimento de software.">
+                        <span class="font-bold select-none">
+                            Git
+                        </span>
+                    </li>
+                    <li class="max-w-[90px] w-full flex justify-center items-center flex-col gap-1">
+                        <img class="w-full lg:h-[80px] md:h-[70px] h-[60px] object-contain" src="./assets/next-js.svg" alt="Logo do nextjs"
+                        title="Next.js é um framework React que facilita a criação de aplicações web de alto desempenho, otimizadas para SEO e com uma excelente experiência de usuário.">
+                        <span class="font-bold select-none">
+                            NextJs
+                        </span>
+                    </li>
+                    <li class="max-w-[90px] w-full flex justify-center items-center flex-col gap-1">
+                        <img class="w-full lg:h-[80px] md:h-[70px] h-[60px] object-contain" src="./assets/cloud-original.jpg" alt="Logo da cloud"
+                        title="A cloud (nuvem) refere-se à computação em nuvem, um modelo de fornecimento de serviços de computação, incluindo servidores, armazenamento, bancos de dados, rede, software, análise e inteligência, através da internet.">
+                        <span class="font-bold select-none">
+                            Cloud
+                        </span>
+                    </li>
+                    <li class="max-w-[90px] w-full flex justify-center items-center flex-col gap-1">
+                        <img class="w-full lg:h-[80px] md:h-[70px] h-[60px] object-contain" src="./assets/pentest.webp" alt="Logo Pentest"
+                        title="Pentest, ou Teste de Intrusão, é um processo de segurança cibernética que simula ataques cibernéticos a sistemas, redes e aplicações para identificar vulnerabilidades.">
+                        <span class="font-bold select-none">
+                            Pentest
+                        </span>
+                    </li>
+                    <li class="max-w-[90px] w-full flex justify-center items-center flex-col gap-1">
+                        <img class="w-full lg:h-[80px] md:h-[70px] h-[60px] object-contain" src="./assets/sql-original.webp" alt="Logo do SQL"
+                        title="SQL, ou Structured Query Language, é a linguagem padrão para gerenciar e manipular dados em sistemas de banco de dados relacionais.">
+                        <span class="font-bold select-none">
+                            SQL
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="max-w-10xl m-auto">
+            <div class="flex justify-center items-center lg:gap-10 gap-4 flex-col lg:pt-10 pt-5 lg:pb-10 md:pb-10 pb-5 mx-3">
+                <h2 class="font-bold text-center lg:text-4xl md:text-4xl text-4xl bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent pb-10 bg-clip-text">Formação Acadêmica <i class="fas fa-graduation-cap"></i></h2>
+        
+                <ul class="w-full text-center flex justify-center items-center flex-wrap lg:gap-8 gap-10">
+                    <li class="wow animate__animated animate__fadeIn lg:w-[300px] md:w-[300px] w-[250px] flex justify-center items-center flex-col gap-5">
+                        <img class="rounded-full lg:max-w-[200px] max-w-[150px]" src="assets/Unicesumar.webp" alt="Logo Unicesumar">
+                        <p class="font-bold lg:text-xl md:text-xl text-base w-full lg:h-14 md:h-12 h-10">Engenharia de Software</p>
+                        <p class="w-full text-center text-zinc-600">Unicesumar - Concluído</p>
+                    </li>
+                    <li class="wow animate__animated animate__fadeIn lg:w-[300px] md:w-[300px] w-[250px] flex justify-center items-center flex-col gap-5">
+                        <img class="rounded-full lg:max-w-[200px] max-w-[150px]" src="assets/Alura.webp" alt="Logo Alura">
+                        <p class="font-bold lg:text-xl md:text-xl text-base w-full lg:h-14 md:h-12 h-10">Desenvolvedor <br> Full Stack</p>
+                        <p class="w-full text-center text-zinc-600">Alura - Concluído</p>
+                    </li>
+                    <li class="wow animate__animated animate__fadeIn lg:w-[300px] md:w-[300px] w-[250px] flex justify-center items-center flex-col gap-5">
+                        <img class="rounded-full lg:max-w-[200px] max-w-[150px]" src="assets/usp.webp" alt="Logo USP">
+                        <p class="font-bold lg:text-xl md:text-xl text-base w-full lg:h-14 md:h-12 h-10">Inteligência Artificial <br>Aplicada à saúde </p>
+                        <p class="w-full text-center text-zinc-600">USP - Concluído</p>
+                    </li>
+                    <li class="wow animate__animated animate__fadeIn lg:w-[300px] md:w-[300px] w-[250px] flex justify-center items-center flex-col gap-5">
+                        <img class="rounded-full lg:max-w-[200px] max-w-[150px]" src="assets/Kultive.webp" alt="Logo Kultive">
+                        <p class="font-bold lg:text-xl md:text-xl text-base lg:h-14 md:h-12 h-10">Curso de idiomas <br> Inglês e Espanhol</p>
+                        <p class="w-full text-center text-zinc-600">Kultive - Em andamento</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="max-w-7xl m-auto wow animate__animated animate__fadeIn" id="experiencia">
+            <div class="flex justify-center items-center flex-col lg:gap-10 gap-7 lg:py-10 md:py-7 py-10 mx-3">
+                <h2 class="font-bold lg:text-4xl md:text-4xl text-4xl bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">Experiência <i class="fas fa-code"></i></h2>
+                <div class="flex flex-col justify-center items-center gap-3">
+                    <div class="flex flex-col gap-3">
+                        <h2 class="font-bold sm:text-xl md:text-2xl lg:text-2xl text-center">Sequoia Corretora</h2>
+                        <div class="flex lg:flex-row md:flex-row flex-col gap-3">
+                            <p class="font-normal lg:text-xl md:text-lg sm:text-lg text-center">Desenvolvedor front-end</p>
+                            <p class="font-normal lg:text-xl md:text-lg sm:text-lg text-center">(Estágio) | Jan/2021 - Out/2022</p>
+                        </div>
+                    </div>
+                    <p class="max-w-4xl sm:text-base md:text-lg lg:text-lg lg:leading-4">
+                        Desenvolvedor Front end em soluções web, utilizando as tecnologias, 
+                        <strong>JavaScript</strong>, <strong>HTML</strong>, <strong>CSS</strong>, <strong>Sass</strong> e <strong>Next.js</strong>, 
+                        versionamento de códigos utilizando <strong>Git</strong>. Demonstrando capacidade de trabalhar em projetos de grande 
+                        impacto e alcance. Trabalho seguindo a <strong>metodologia Scrum</strong> e aplicando o fluxo de trabalho <strong>Git Flow</strong> para
+                        garantir organização e eficiência no <strong>versionamento de código</strong>.
+                    </p>                    
+                    <ul class="flex justify-center flex-wrap gap-3">
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none"
+                        title="" >
+                            NextJs
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none"
+                        title="" >
+                            Sass
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none"
+                        title="" >
+                            Html
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none"
+                        title="" >
+                            Css
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none"
+                        title="" >
+                            Javascript
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none"
+                        title="" >
+                            Git Flow
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none"
+                        title="" >
+                            Mentodologia Scrum
+                        </li>
+                    </ul>
+                    
+                    <div class="flex flex-col gap-3 mt-2">
+                        <h2 class="font-bold sm:text-xl md:text-2xl lg:text-2xl text-center">Restaurante Barão</h2>
+                        <div class="flex lg:flex-row md:flex-row flex-col gap-3">
+                            <p class="font-normal lg:text-xl md:text-lg sm:text-lg text-center">Desenvolvedor Front End - (Autônomo)</p>
+                            <p class="font-normal lg:text-xl md:text-lg sm:text-lg text-center">Jan/2023 - Jun/2023</p>
+                        </div>
+                    </div>
+                    <p class="max-w-4xl sm:text-base md:text-lg lg:text-lg lg:leading-4">
+                        Desenvolvimento de soluções tecnológicas com impacto social, utilizando <strong>React.js</strong>, 
+                        <strong>Tailwind CSS</strong> e <strong>TypeScript</strong>. Trabalho seguindo a <strong>metodologia Scrum</strong> e aplicando o fluxo de trabalho <strong>Git Flow</strong> para
+                        garantir organização e eficiência no <strong>versionamento de código</strong>. Construção de interfaces
+                        modernas, acessíveis e responsivas, sempre buscando a melhoria contínua e a entrega de valor para a comunidade.
+                    </p>                    
+                    <ul class="flex justify-center flex-wrap gap-3">
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none"
+                        title="" >
+                            React.js
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none"
+                        title="TypeScript é uma linguagem de programação que adiciona tipagem estática opcional ao JavaScript, facilitando o desenvolvimento de aplicativos robustos e escaláveis." >
+                            Typescript
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none"
+                        title="TypeScript é uma linguagem de programação que adiciona tipagem estática opcional ao JavaScript, facilitando o desenvolvimento de aplicativos robustos e escaláveis." >
+                            Tailwind CSS
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none"
+                        title="" >
+                            Git Flow
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none"
+                        title="" >
+                            Mentodologia Scrum
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="max-w-7xl m-auto">
+            <div class="w-full flex justify-center items-center lg:gap-15 gap-10 flex-col lg:py-10 py-5">
+                <h2 class="wow animate__animated animate__fadeInLeft text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text lg:pb-5 pb-2">
+                    Projetos <i class="fas fa-sitemap"></i></i>
+                </h2>
+                <div class="lg:max-w-[100%] max-w-[90%] flex justify-center items-center gap-10 lg:flex-row flex-col">
+                    <div class="wow animate__animated animate__fadeInLeft max-w-[600px]">
+                        <img class="w-full rounded-lg" src="assets/imgProjects/serenatto.png" alt="imagem inicial do site">
+                    </div>
+                    <div class="wow animate__animated animate__fadeInRight flex justify-center items-start flex-col gap-3">
+                        <h3 class="font-bold text-2xl uppercase">Serenatto</h3>
+                        <ul class="flex justify-start flex-wrap gap-3">
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                HTML5
+                            </li>
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                CSS3
+                            </li>
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                Javascript
+                            </li>
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                Bootstrap
+                            </li>
+                            
+        
+                        </ul>
+                        <p class="max-w-[600px] leading-7">
+                            O Serenatto é uma landing page fictícia sem fins comerciais. Para quem busca aquela página para seu site estilosa, Serenatto tem tudo a ver. O site oferece uma experiência de usuário suave com design responsivo e uma UI moderna. Exibe várias seções, como serviços, informações de contato e muito mais, todas preenchidas dinamicamente. Ele inclui recursos como uma página inicial, com tratamento de erros adicional e estados de carregamento para garantir uma navegação perfeita.
+                        </p>
+                        <div class="flex gap-3 text-xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">
+                            <a href="https://github.com/Michell93/cafeteria" target="_blank" rel="noopener noreferrer" aria-label="Visitar o Repositório de Michel">Repositório <i class="fab fa-github"></i></a>
+                            <a href="https://cafeteria-alpha-brown.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visitar a demo de Michel">Ver Demo <i class="fas fa-file-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:max-w-[100%] max-w-[90%] flex justify-center items-center gap-10 lg:flex-row flex-col">
+                    <div class="wow animate__animated animate__fadeInLeft max-w-[600px]">
+                        <img class="w-full rounded-lg" src="assets/imgProjects/lista-de-compra.png" alt="imagem inicial do site">
+                    </div>
+                    <div class="wow animate__animated animate__fadeInRight flex justify-center items-start flex-col gap-3">
+                        <h3 class="font-bold text-2xl uppercase">Lista de Compra</h3>
+                        <ul class="flex justify-start flex-wrap gap-3">
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                HTML5
+                            </li>
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                CSS3
+                            </li>
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                Javascript
+                            </li>
+        
+                        </ul>
+                        <p class="max-w-[600px] leading-7">
+                            A aplicação permite inserir itens em uma lista de forma dinâmica, permitindo a exclusão e edição dos mesmos. Os itens terão o nome e também a data e horário que foram criados. Também é possível selecionar um checkbox para informar que o item foi comprado. 
+                        </p>
+                        <div class="flex gap-3 text-xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">
+                            <a href="https://github.com/Michell93/lista-de-compras" target="_blank" rel="noopener noreferrer" aria-label="Visitar o Repositório de Michel">Repositório <i class="fab fa-github"></i></a>
+                            <a href="https://lista-de-compras-five-phi.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visitar a demo de Michel">Ver Demo <i class="fas fa-file-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:max-w-[100%] max-w-[90%] flex justify-center items-center gap-10 lg:flex-row flex-col">
+                    <div class="wow animate__animated animate__fadeInLeft max-w-[600px]">
+                        <img class="w-full rounded-lg" src="assets/imgProjects/bitebank.png" alt="imagem inicial do site">
+                    </div>
+                    <div class="wow animate__animated animate__fadeInRight flex justify-center items-start flex-col gap-3">
+                        <h3 class="font-bold text-2xl uppercase">Bitebank</h3>
+                        <ul class="flex justify-start flex-wrap gap-3">
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                HTML5
+                            </li>
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                CSS5
+                            </li>
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                Javascript
+                            </li>
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                Typescript
+                            </li>
+                            
+                        </ul>
+                        <p class="max-w-[600px] leading-7">
+                            Temos um projeto com uma apresentação de uma landing page de um banco, realizando simulações de depósito, transferências e pagamento de boleto. Saldo é atualizado conforme as transações. Disponível para versões mobile, tablet e desktop.
+                            Este projeto conta com classe conta e armazenador, atributos e construtor de conta, modificadores de acesso, métodos estáticos, herança de classes e decorators de validação.
+                        </p>
+                        <div class="flex gap-3 text-xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">
+                            <a href="https://github.com/Michell93/bitebank" target="_blank" rel="noopener noreferrer" aria-label="Visitar Repositório de Michel">Repositório <i class="fab fa-github"></i></a>
+                            <a href="https://bitebank.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visitar a demo de Michel">Ver Demo <i class="fas fa-file-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:max-w-[100%] max-w-[90%] flex justify-center items-center gap-10 lg:flex-row flex-col">
+                    <div class="wow animate__animated animate__fadeInLeft max-w-[600px]">
+                        <img class="w-full rounded-lg" src="assets/imgProjects/fokus.png" alt="imagem inicial do site">
+                    </div>
+                    <div class="wow animate__animated animate__fadeInRight flex justify-center items-start flex-col gap-3">
+                        <h3 class="font-bold text-2xl uppercase">Fokus</h3>
+                        <ul class="flex justify-start flex-wrap gap-3">
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                HTML5
+                            </li>
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                CSS3
+                            </li>
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                Tailwind CSS
+                            </li>
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                Javascript
+                            </li>
+                        
+        
+                        </ul>
+                        <p class="max-w-[600px] leading-7">
+                            Uma landing page responsiva, com a ideia de sessões de relaxamento com tempo e música interativa. Visando aperfeiçoar as habilidades em tailwindcss.
+
+                            
+                        </p>
+                        <div class="flex gap-3 text-xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">
+                            <a href="https://github.com/Michell93/fokus" target="_blank" rel="noopener noreferrer" aria-label="Visitar o repositório de Michel">Repositório <i class="fab fa-github"></i></a>
+                            <a href="https://relax-delta.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visitar a demo de Michel">Ver Demo <i class="fas fa-file-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:max-w-[100%] max-w-[90%] flex justify-center items-center gap-10 lg:flex-row flex-col">
+                    <div class="wow animate__animated animate__fadeInLeft max-w-[600px]">
+                        <img class="w-full rounded-lg" src="assets/imgProjects/meteora.png" alt="imagem inicial do site">
+                    </div>
+                    <div class="wow animate__animated animate__fadeInRight flex justify-center items-start flex-col gap-3">
+                        <h3 class="font-bold text-2xl uppercase">Meteora</h3>
+                        <ul class="flex justify-center flex-wrap gap-3">
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                HTML5
+                            </li>
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                CSS3
+                            </li>
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                Javascript
+                            </li>
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                Typescript
+                            </li>
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                Bootstrap
+                            </li>
+                        </ul>
+                        <p class="max-w-[600px] leading-7">
+                            Meteora é uma plataforma de e-commerce para compra de roupas, desenvolvida com Bootstrap, TypeScript e Vite. Confira todas as roupas disponíveis para compra, adicione e remova roupas do seu carrinho.
+                    
+
+                            
+                        </p>
+                        <div class="flex gap-3 text-xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">
+                            <a href="https://github.com/Michell93/meteora" target="_blank" rel="noopener noreferrer" aria-label="Visitar o Repositório de Michel">Repositório <i class="fab fa-github"></i></a>
+                            <a href="https://meteora-mu-three.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visitar a demo de Michel">Ver Demo <i class="fas fa-file-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:max-w-[100%] max-w-[90%] flex justify-center items-center gap-10 lg:flex-row flex-col">
+                    <div class="wow animate__animated animate__fadeInLeft max-w-[600px]">
+                        <img class="w-full rounded-lg" src="assets/imgProjects/culturama.png" alt="imagem inicial do site">
+                    </div>
+                    <div class="wow animate__animated animate__fadeInRight flex justify-center items-start flex-col gap-3">
+                        <h3 class="font-bold text-2xl uppercase">Culturama</h3>
+                        <ul class="flex justify-center flex-wrap gap-3">
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                HTML5
+                            </li>
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                CSS
+                            </li>
+                        
+                        </ul>
+                        <p class="max-w-[600px] leading-7">
+                            O Culturama é uma landing page utilizado para divulgação de eventos culturais. A ideia principal desse projeto é evoluir ainda mais os conhecimentos em HTML e CSS, com foco em Flexbox e Grid. O código organizado e a otimização de imagens contribuem para um desempenho eficiente. Este projeto demonstra minha habilidade em criar websites interativos e visualmente atraentes.
+                        </p>
+                        <div class="flex gap-3 text-xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">
+                            <a href="https://github.com/Michell93/Culturama" target="_blank" rel="noopener noreferrer" aria-label="Visitar o repositório de Michel">Repositório <i class="fab fa-github"></i></a>
+                            <a href="https://culturama-puce-two.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visitar a demo de Michel">Ver Demo <i class="fas fa-file-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:max-w-[100%] max-w-[90%] flex justify-center items-center gap-10 lg:flex-row flex-col">
+                    <div class="wow animate__animated animate__fadeInLeft max-w-[600px]">
+                        <img class="w-full rounded-lg" src="assets/imgProjects/numero-secreto.png" alt="imagem inicial do site">
+                    </div>
+                    <div class="wow animate__animated animate__fadeInRight flex justify-center items-start flex-col gap-3">
+                        <h3 class="font-bold text-2xl uppercase">Jogo do número secreto</h3>
+                        <ul class="flex justify-center flex-wrap gap-3">
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                HTML5
+                            </li>
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                CSS
+                            </li>
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                Javascript
+                            </li>
+                        </ul>
+                        <p class="max-w-[600px] leading-7">
+                            A landing page número secreto tem como objetivo trazer interatividade com o usuário. Destaco a usabilidade aprimorada com manipulação eficiente do DOM e a modernização visual. Desenvolvido com HTML, CSS e JavaScript, o projeto oferece uma experiência fluida e envolvente para os usuários.
+                        </p>
+                        <div class="flex gap-3 text-xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">
+                            <a href="https://github.com/Michell93/numeroSecreto2.0" target="_blank" rel="noopener noreferrer" aria-label="Visitar o repositório de Michel">Repositório <i class="fab fa-github"></i></a>
+                            <a href="https://numero-secreto2-0.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visitar a demo de Michel">Ver Demo <i class="fas fa-file-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:max-w-[100%] max-w-[90%] flex justify-center items-center gap-10 lg:flex-row flex-col">
+                    <div class="wow animate__animated animate__fadeInLeft max-w-[600px]">
+                        <img class="w-full rounded-lg" src="assets/imgProjects/padaria.png" alt="imagem inicial do site">
+                    </div>
+                    <div class="wow animate__animated animate__fadeInRight flex justify-center items-start flex-wrap flex-col gap-3">
+                        <h3 class="font-bold text-2xl uppercase">Padock</h3>
+                        <ul class="flex justify-center gap-3">
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                HTML5
+                            </li>
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                CSS
+                            </li>
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                Bootstrap
+                            </li>
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                Javascript
+                            </li>
+                        </ul>
+                        <p class="max-w-[600px] leading-7">
+                            O Padock é uma aplicação web interativa que simula um cardápio online de uma padaria, permitindo aos clientes visualizar os itens disponíveis, Visando aperfeiçoar as habilidades em bootstrap. 
+                        </p>
+                        <div class="flex gap-3 text-xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">
+                            <a href="https://github.com/Michell93/padock" target="_blank" rel="noopener noreferrer" aria-label="Visitar o repositório de Michel">Repositório <i class="fab fa-github"></i></a>
+                            <a href="https://padock.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visitar a demo de Michel">Ver Demo <i class="fas fa-file-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:max-w-[100%] max-w-[90%] flex justify-center items-center gap-10 lg:flex-row flex-col">
+                    <div class="wow animate__animated animate__fadeInLeft max-w-[600px]">
+                        <img class="w-full rounded-lg" src="assets/imgProjects/barber.png" alt="imagem inicial do site">
+                    </div>
+                    <div class="wow animate__animated animate__fadeInRight flex justify-center items-start flex-wrap flex-col gap-3">
+                        <h3 class="font-bold text-2xl uppercase">Barbershop</h3>
+                        <ul class="flex justify-center gap-3">
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                HTML5
+                            </li>
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                CSS
+                            </li>
+                            <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none">
+                                SASS
+                            </li>
+                        </ul>
+                        <p class="max-w-[600px] leading-7">
+                            Barbershop é uma landing page criada para uma barbearia. Um projeto independente que tem como objetivo principal a utilização do SASS, é um pré-processador de CSS que permite escrever estilos usando uma sintaxe mais fácil e intuitiva, além de adicionar recursos que não estão presentes no CSS puro.
+                        </p>
+                        <div class="flex gap-3 text-xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">
+                            <a href="https://github.com/Michell93/barbershop" target="_blank" rel="noopener noreferrer" aria-label="Visitar o repositório de Michel">Repositório <i class="fab fa-github"></i></a>
+                            <a href="https://barbershop-beryl.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visitar a demo de Michel">Ver Demo <i class="fas fa-file-code"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="wow animate__animated animate__fadeIn max-w-7xl m-auto" id="contato">
+            <div class="max-w-[90%] lg:text-start md:text-start text-center flex justify-center items-center gap-3 flex-col lg:pt-10 pt-7 lg:pb-20 md:pb-10 pb-7 mx-auto">
+                <h2 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">
+                    Contato <i class="far fa-paper-plane"></i>
+                </h2>
+                <h3 class="lg:text-xl md:text-2xl text-base lg:leading-8 md:leading-9 leading-7">Me mande uma mensagem!</h3>
+                <p class="lg:text-xl md:text-2xl text-base lg:leading-8 md:leading-9 leading-7">Tem uma pergunta ou proposta, ou apenas quer dizer "olá"? Vá em frente.</p>
+            </div>
+            <div class="flex justify-center items-center">
+                <form action="https://formspree.io/f/mnnddjjn" method="POST" id="contactForm" class="w-full max-w-[1000px] bg-gray-100 p-2 rounded-lg">
+                    <div class="grid lg:grid-cols-2 grid-cols-1 gap-4 mb-4">
+                        <div>
+                            <label for="nome" class="block text-gray-800 font-bold mb-2">Seu nome:</label>
+                            <input type="text" id="nome" name="nome" class="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none" required>
+                            <span class="erro"></span>
+                        </div>
+                        <div>
+                            <label for="endereco" class="block text-gray-800 font-bold mb-2">Endereço de E-mail:</label>
+                            <input type="email" id="endereco" name="endereco" class="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none" required>
+                            <span class="erro"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="mensagem" class="block text-gray-800 font-bold mb-2">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="4" class="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none" required></textarea>
+                    </div>
+                    <div class="flex justify-center mt-5">
+                        <button
+                            aria-label="Enviar E-mail para Michel"
+                            type="submit" class="w-[200px] bg-blue-700 hover:bg-blue-500  text-white font-bold py-2 px-4 rounded focus:outline-none transition-all">
+                            Enviar
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="wow animate__animated animate__fadeIn  max-w-7xl m-auto">
+        <div class="w-full flex justify-center items-center flex-wrap-reverse gap-5 pt-10 pb-10">
+            <p class="w-full text-center font-bold lg:text-xl md:text-xl text-sm text-gray-500">
+                © 2024 - Design and Code by Michel Douglas.
+            </p>
+            <div class="flex justify-center items-center lg:flex-row md:flex-row flex-col font-medium gap-5">
+                <a class="hover:text-purple-900 transition-all duration-300 ease-in-out lg:text-xl text-2xl" href="https://www.linkedin.com/in/michel-douglas-barbosa-b05220212/" target="_blank" rel="noopener noreferrer" aria-label="Visitar LinkedIn de Lucas">
+                    Linkedin <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a class="hover:text-purple-900 transition-all duration-300 ease-in-out lg:text-xl text-2xl" href="https://wa.me/5516996466186" target="_blank" rel="noopener noreferrer" aria-label="Enviar mensagem para WhatsApp">
+                    WhatsApp <i class="fab fa-whatsapp"></i>
+                </a>
+                <a class="hover:text-purple-900 transition-all duration-300 ease-in-out lg:text-xl text-2xl" href="mailto:michelldouglas1993@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Enviar E-mail para Lucas" >
+                    E-mail <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
